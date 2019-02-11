@@ -1,15 +1,10 @@
 import React from 'react';
 import './Header.css';
 
-const Container = () => {
+const ImageThumbnail = () => {
     return (
-        <div className="container">
-            
-        </div>
-    )
+        <img alt="logo" src="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png"></img>
+    );
 }
 
-ReactDOM.render(
-    <Container />,
-    document.getElementById('root')
-);
+export default ImageThumbnail;

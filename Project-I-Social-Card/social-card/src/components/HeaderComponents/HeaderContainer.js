@@ -2,12 +2,16 @@ import React from 'react';
 import './Header.css';
 
 import HeaderTitle from './components/HeaderComponents/HeaderTitle';
+import HeaderContent from './components/HeaderComponents/HeaderContent';
+import ImageThumbnail from './ImageThumbnail';
 
 const Container = () => {
     return (
-      <div className="container">
-          <HeaderTitle />
-      </div>
+        <div class="container">
+            <ImageThumbnail />
+            <HeaderTitle />
+            <HeaderContent /> 
+        </div>
     );
   }
 
