@@ -3,16 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 
-import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 
 
 
 
 function App() {
     return (
-        <div>
-            <HeaderContainer />
-        </div>
+        <HeaderContainer />
     );
 }
 

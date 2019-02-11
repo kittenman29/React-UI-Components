@@ -5,7 +5,7 @@ import HeaderTitle from './components/HeaderComponents/HeaderTitle';
 import HeaderContent from './components/HeaderComponents/HeaderContent';
 import ImageThumbnail from './ImageThumbnail';
 
-const Container = () => {
+const HeaderContainer = () => {
     return (
         <div class="container">
             <ImageThumbnail />
@@ -15,4 +15,4 @@ const Container = () => {
     );
   }
 
-export default Container;
+export default HeaderContainer;
