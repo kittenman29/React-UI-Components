@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: [col-1] 25% [col-2] 25% [col-3] 25% [col-4] 25%;
+    max-width: 456px;
+    margin: 0 auto;
+    border: 2px solid lightgrey;
+}
+
+.result {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: black;
+    color: white;
+    font-size: 5.25rem;
+    text-align: right;
+    height: 127px;
+    border: 2px solid lightgrey;
+}
+
+.other-number-button {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    height: 57px;
+    display: inline-block;
+    padding: 18px 0;
+    font-size: 3rem;
+    border: 2px solid lightgrey;
+}
+
+.action-button {
+    text-align: center;
+    height: 57px;
+    display: inline-block;
+    padding: 18px 0;
+    font-size: 3rem;
+    border: 2px solid lightgrey;
+    background-color: crimson;
+    color: white;
+}
+
+.number-button {
+    text-align: center;
+    height: 57px;
+    display: inline-block;
+    padding: 18px 0;
+    font-size: 3rem;
+    border: 2px solid lightgrey;
+}
+
+
