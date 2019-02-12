@@ -32,37 +32,3 @@ h1 {
     font-size: .8rem;
     line-height: 1.5;
 }
-
-.linksiez {
-    text-decoration: none;
-    color: black;
-}
-
-.card-container {
-    max-width: 600px;
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-.banner-container img {
-    max-width: 485px;
-    margin: 10px 57px;
-    border-radius: 5px;
-}
-
-h2 {
-    font-size: .9rem;
-    margin: -3px 0 0 70px;
-}
-
-.content-body {
-    font-size: .85rem;
-    line-height: 1.5;
-    margin: 7px 0 0 72px;
-    max-width: 500px;
-}
-
-.link {
-    color: lightgrey;
-    margin-left: 68px;
-}
